@@ -1,0 +1,168 @@
+   
+@media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  html {
+    width: 100%;
+  }
+#about {
+    
+}
+.grass {
+    background-color: #60b088;
+}
+.fire {
+    background-color: #f67f0b;
+}
+.water {
+    background-color: #0a7abc; 
+}
+.normal {
+    background-color: #ccc9aa;
+}
+.flying {
+    background-color: #5eb9b2;
+}
+.bug {
+    background-color: #bddd6e;
+}
+.poison {
+    background-color: #a819d7;
+}
+.electric {
+    background-color: #fffa24;
+}
+.ground {
+    background-color: #e1d158;
+}
+.fighting {
+    background-color: #e81319;
+}
+.psychic {
+    background-color: #ec0e63;
+}
+.rock {
+    background-color: #776a3e;
+}
+.ice {
+    background-color: #1995a1; 
+}
+.ghost {
+    background-color: #8e55a4;
+}
+.dragon {
+    background-color: #8a55fd;
+}
+.dark {
+    background-color: #5f4632;
+}
+.steel {
+    background-color: #5f4632;
+}
+.fairy {
+    background-color: #ffa0c2;
+}
+.name {
+    
+}
+.content {
+    padding: 1rem;
+    width: 100vw;
+    height: 40vh;
+    background-image: url('/assets/img/bolapokemon.webp');
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.imgpoke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+#pokenumber {
+    color: #f9f9f9;
+}
+.details {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(245, 248, 248);
+    padding: 20px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -40px;
+}
+.details ul {
+    margin: 0;
+}
+nav {
+    margin-top: 30px;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: black;  
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+}
+#name {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;
+}
+.types ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.types ul li {
+    list-style: none;
+    padding: 10px;
+    background-color: #2a7e53;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+    opacity: 40%;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+#types {
+    color: #f9f9f9;
+}
+.tabinfo, .tabbreeding {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.tabinfo td {
+    padding-top: 20px;
+    padding-right: 80px;
+    text-transform: capitalize;
+}
+.tabbreeding td  {
+    padding-top: 10px;
+    padding-right: 60px;
+}
+.breedingtitle {
+    margin-left: 4rem;
+    font-weight: bolder;
+    font-size: 14pt;
+}
